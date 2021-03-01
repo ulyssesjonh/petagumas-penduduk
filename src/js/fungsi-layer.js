@@ -13,8 +13,6 @@ function getColor(nama_kec)
 				'#FFEDA0';
 }
 
-
-			
 			
 	function highlightFeature(e) {
 		var layer = e.target;
@@ -181,5 +179,7 @@ function getColor(nama_kec)
 	};
 
 	info.addTo(map);
+	
+	
 			
 			
