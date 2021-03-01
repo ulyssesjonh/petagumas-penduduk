@@ -40,7 +40,7 @@ function getColor(nama_kec)
 			
 			function tampil(e){
 				let kec = e.target;
-				/*gumasLayer.bindPopup(
+				gumasLayer.bindPopup(
 					`<table nowrap class="table table-bordered">
 										<tr style ="line-height: 10px">
 											<td nowrap>Nama Kecamatan : </td>
@@ -60,7 +60,7 @@ function getColor(nama_kec)
 											<td nowrap>`+kec.feature.properties.jum_penduduk+` Orang</td>
 										</tr>
 					</table>`
-				)*/
+				)
 
 			}
 			
