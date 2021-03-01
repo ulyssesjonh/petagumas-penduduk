@@ -174,7 +174,7 @@ function getColor(nama_kec)
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>Jumlah Penduduk Kab. Gunung Mas <br/> Per Kecamatan Tahun 2020</h4>' +  (props ?
+		this._div.innerHTML = '<h4>Jumlah Penduduk Kab. Gunung Mas <br/> Per Kecamatan (Tahun 2020)</h4>' +  (props ?
 			'<b>Kecamatan ' + props.Kecamatan + '</b><br />' + props.jum_penduduk + ' Orang' 
 			
 			: 'Arahkan Kursor ke Kecamatan');
